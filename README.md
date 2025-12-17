@@ -18,7 +18,3 @@ The game supports both button clicks and keyboard input, and the score is saved 
 2. The computer makes a random choice.
 3. The winner is displayed and the score is updated automatically.
 
-
-
-## Project Structure
-
