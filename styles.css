@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 20px;
+  background-color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 600px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.decision-paragraph {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+#rock {
+  background-image: url(images/rock-emoji.png);
+}
+
+#paper {
+  background-image: url(images/paper-emoji.png);
+}
+
+#scissors {
+  background-image: url(images/scissors-emoji.png);
+}
+
+.choice-btn {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.result-img {
+  height: 60px;
+}
+
+.score-paragraph {
+  margin: 40px 0;
+  font-size: 17px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.reset-btn {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.reset-btn:active,
+.choice-btn:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 720px) {
+  .choice-btn {
+    height: 100px;
+    width: 100px;
+  }
+}
